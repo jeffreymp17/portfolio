@@ -1,16 +1,16 @@
 {
-  "main.css": "/portfolio/static/css/main.1f678408.chunk.css",
-  "main.js": "/portfolio/static/js/main.102ea4fd.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.102ea4fd.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.84591e2a.chunk.css",
+  "main.js": "/portfolio/static/js/main.663bfdc8.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.663bfdc8.chunk.js.map",
   "static/js/1.29104554.chunk.js": "/portfolio/static/js/1.29104554.chunk.js",
   "static/js/1.29104554.chunk.js.map": "/portfolio/static/js/1.29104554.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/css/main.1f678408.chunk.css.map": "/portfolio/static/css/main.1f678408.chunk.css.map",
+  "static/css/main.84591e2a.chunk.css.map": "/portfolio/static/css/main.84591e2a.chunk.css.map",
   "static/media/me.jpg": "/portfolio/static/media/me.9bd7f824.jpg",
   "static/media/fixerAdmin.png": "/portfolio/static/media/fixerAdmin.6c4a16c5.png",
   "static/media/rideline.jpeg": "/portfolio/static/media/rideline.154a0503.jpeg",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.d97a16367c8ab330421e4e50d3ba2182.js": "/portfolio/precache-manifest.d97a16367c8ab330421e4e50d3ba2182.js",
+  "precache-manifest.86acc63defafc8ed0082447b511f3f24.js": "/portfolio/precache-manifest.86acc63defafc8ed0082447b511f3f24.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
