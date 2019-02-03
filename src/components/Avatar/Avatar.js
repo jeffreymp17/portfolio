@@ -21,6 +21,7 @@ const styles = {
   width:80,
   },
   nameColor:{
+      fontSize:19,
       color:"white",
   }
 };
@@ -34,9 +35,14 @@ function ImageAvatar(props) {
       <div>
     <Grid container justify="center" alignItems="center">
       <Avatar alt="R" src={profile} className={classes.bigAvatar} />
-      <Typography gutterBottom variant="h4" component="h2" className={classes.nameColor}>
-            {`Jeffry Martínez Pérez`}
-          </Typography>
+      <div>
+      <Typography component="h6" variant="display3" gutterBottom className={classes.whiteColor}>
+      {`Jeffry Martínez Pérez`}
+        </Typography><br/>
+          <span className={classes.nameColor}>
+            {`Mobile and Front End Developer`}
+          </span><br/>
+          </div>
     </Grid>
         <Grid>
             </Grid>
