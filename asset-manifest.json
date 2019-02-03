@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio/static/css/main.84591e2a.chunk.css",
-  "main.js": "/portfolio/static/js/main.663bfdc8.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.663bfdc8.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.d9bcf283.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.d9bcf283.chunk.js.map",
   "static/js/1.29104554.chunk.js": "/portfolio/static/js/1.29104554.chunk.js",
   "static/js/1.29104554.chunk.js.map": "/portfolio/static/js/1.29104554.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -11,6 +11,6 @@
   "static/media/fixerAdmin.png": "/portfolio/static/media/fixerAdmin.6c4a16c5.png",
   "static/media/rideline.jpeg": "/portfolio/static/media/rideline.154a0503.jpeg",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.7d377e29b298e398982589c291f08dd4.js": "/portfolio/precache-manifest.7d377e29b298e398982589c291f08dd4.js",
+  "precache-manifest.0554123f0405ab67943cdecd0bacade0.js": "/portfolio/precache-manifest.0554123f0405ab67943cdecd0bacade0.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
