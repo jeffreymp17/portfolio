@@ -41,7 +41,7 @@ function MediaCard(props) {
   const { classes } = props;
   const project=props.project;
   return (
-    <Grid item xs={12} sm={6} lg={4} xl={3}>
+    <Grid item xs={12} sm={6} lg={4} lg={4} xl={4} >
     <Card  onClick={(e)=>{redirecToGithub(project.url)}}>
       <CardActionArea>
         <CardMedia

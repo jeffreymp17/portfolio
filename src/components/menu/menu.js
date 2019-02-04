@@ -9,6 +9,7 @@ import ImageAvatar from '../Avatar/Avatar';
 import Projects from '../../utils/projectImages';
 import MediaCard from '../MediaCard/MediaCard';
 import Divider from '@material-ui/core/Divider';
+import Carusel from '../Carousel/Carousel';
 const styles = theme => ({
   root: {
     flexGrow: 1,
@@ -41,7 +42,7 @@ function Menu(props) {
         <Grid item xs={12}>
           <ImageAvatar avatar="avatar"/>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} lg={6} xl={4} >
           <Paper className={classes.paper}>
           <Typography gutterBottom variant="display1" component="h2">
            About me
@@ -53,7 +54,7 @@ trying to improve myself a little bit more every day,I have experience working w
           </Typography>
        </Paper>
         </Grid>
-        <Grid item xs={12} sm={3} className={classes.pointer}>
+        <Grid item xs={12} sm={3} lg={3} xl={4}  className={classes.pointer}>
         <Paper className={classes.paper} onClick={(e)=>{redirecToGithub("https://github.com/jf2028mp")}}>
           <ImageAvatar image="https://inscripciones.utnso.com/images/github-round.png"></ImageAvatar>
           <Typography gutterBottom variant="display1" component="h2" justify="center" >
@@ -61,9 +62,9 @@ trying to improve myself a little bit more every day,I have experience working w
           </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={3} className={classes.pointer}>
+        <Grid item xs={12} sm={3}  lg={3} xl={4} className={classes.pointer}>
         <Paper className={classes.paper} onClick={(e)=>{redirecToGithub('https://www.linkedin.com/in/jeffry-mart%C3%ADnez-p%C3%A9rez-aaab20175')}}>
-          <ImageAvatar image="https://banner2.kisspng.com/20180612/eke/kisspng-linkedin-computer-icons-social-media-logo-5b207e5131c866.5740290115288561452039.jpg"></ImageAvatar>
+          <ImageAvatar image="http://www.logospng.com/images/152/social-linkedin-button-blue-icon-bookmarks-152794.png"></ImageAvatar>
           <Typography gutterBottom variant="display1" component="h2"justify="center" >
             LinkedIn
           </Typography>
@@ -78,12 +79,12 @@ trying to improve myself a little bit more every day,I have experience working w
          {Projects.map((project,index)=>{
          return <MediaCard project={project} key={index}/>
          })}
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>
+        <Grid item xs={12} >
+          <Paper className={classes.paper} height={350}>
           <Typography gutterBottom variant="display2" component="h2">
            Technologies
           </Typography>
-          <AvatarList/>
+          <Carusel />
           <Typography component="p">
           </Typography>
           </Paper>
